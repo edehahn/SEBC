@@ -1,15 +1,15 @@
-'''[root@ip-172-31-18-209 ~]# cat /proc/sys/vm/swappiness
+```[root@ip-172-31-18-209 ~]# cat /proc/sys/vm/swappiness
 1
 [root@ip-172-31-18-209 ~]# grep swap /etc/sysctl.conf
-vm.swappiness = 1'''
+vm.swappiness = 1```
 
-'''LABEL=_         /                       ext4    defaults        1 1
+```LABEL=_         /                       ext4    defaults        1 1
 tmpfs                   /dev/shm                tmpfs   defaults        0 0
 devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
 sysfs                   /sys                    sysfs   defaults        0 0
-proc                    /proc                   proc    defaults        0 0'''
+proc                    /proc                   proc    defaults        0 0```
 
-'''[root@ip-172-31-18-209 ~]# tune2fs -l /dev/xvde1
+```[root@ip-172-31-18-209 ~]# tune2fs -l /dev/xvde1
 tune2fs 1.41.12 (17-May-2010)
 Filesystem volume name:   _
 Last mounted on:          /
@@ -53,4 +53,4 @@ Desired extra isize:      28
 Journal inode:            8
 Default directory hash:   half_md4
 Directory Hash Seed:      7039363b-3a6a-46d3-bc61-7dd2a90f3a4b
-Journal backup:           inode blocks'''
+Journal backup:           inode blocks```
