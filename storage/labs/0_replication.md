@@ -33,6 +33,7 @@ FSCK ended at Tue Jun 06 10:37:07 EDT 2017 in 3 milliseconds
 
 
 The filesystem under path '/edehahn/' is HEALTHY
+```
 
 ```
 [ec2-user@ip-172-31-24-190 mm]$ sudo -u hdfs hdfs fsck /egruppioni/ -files -blocks
