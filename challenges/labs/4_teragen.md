@@ -6,6 +6,7 @@ real    1m32.856s
 user    0m6.402s
 sys     0m0.362s
 ```
+<i><strong>The output below should show seven files: one `_SUCCESS` and six mapped output files.</strong></i> 
 ```
 [theresa@ip-172-31-23-252 yum.repos.d]$ hdfs dfs -ls /user/theresa/tgen512m
 Found 3 items
